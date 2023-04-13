@@ -103,3 +103,12 @@ const myArray = [];
     myArray.push(i)
     i--
   }
+
+
+  if (endNum < startNum) {
+    return [];
+  } else {
+    const numbers = rangeOfNumbers(startNum, endNum - 1);
+    numbers.push(endNum);
+    return numbers;
+  }
