@@ -112,3 +112,6 @@ const myArray = [];
     numbers.push(endNum);
     return numbers;
   }
+  const magic = () => {
+    return new Date();
+  };
